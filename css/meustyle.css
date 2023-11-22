@@ -1,0 +1,294 @@
+*{font-family: 'Montserrat', sans-serif;}
+
+.information{
+    background-color: white;
+}
+
+.information h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.information p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.espaco{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    /*background-color: #FF006F;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.7) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+*/}
+
+.noticia{
+    background-color: 0060D5;
+    color: white;
+    padding: 35px;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+/*Noticia Demonstração*/
+
+.noticiademo h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+    /*margin-left: 450px;
+    margin-right: 450px;*/
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 350px;
+    border-color: #0060D5;
+    margin-top: -18px;
+}
+
+.hrG{
+    width: 280px;
+    border-color: #0060D5;
+    margin-top: -18px;
+}
+
+.contatotitle h2{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.conteudonoticia h3{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.btnnoticia a{
+    background-color: #0060D5;
+}
+
+.btnnoticia a:hover{
+    background-color: #2888ff;
+    cursor: pointer;
+}
+
+.btnctt button{
+    background-color: #FF006F;
+}
+
+.btnctt button:hover{
+    background-color: #ff3d91;
+    cursor: pointer;
+}
+
+.bgImg{
+    background-image: url(../img/bkgCT.png);
+    /*background-color: #FF006F;*/
+
+}
+
+.formInp input{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: white;
+    outline: none;
+}
+
+.formInp textarea{
+    color: #fff;
+}
+
+.textnoticia{
+    height: 100px;
+    overflow: auto;
+}
+
+.titleSB h2{
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px;
+    /*margin-left: 450px;
+    margin-right: 450px;*/
+    text-align: center;    
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.titleglp{
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px;
+    /*margin-left: 450px;
+    margin-right: 450px;*/
+    text-align: center;    
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.titlegl{
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px;
+    /*margin-left: 450px;
+    margin-right: 450px;*/
+    text-align: center;    
+    border-radius: 15px;
+}
+
+.imgGaleria img{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.imgW{
+    width: 90%;
+}
+
+.carousel{
+    height: 320px;
+}
+.carousel .carousel-item{
+    width: 320px;
+    
+}
+
+footer{
+    margin-bottom: -30px;
+}
+
+/*.footerB{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(0, 0, 0);
+}*/
+
+.grid-2 p{
+    padding: 10px;
+}
+
+.grid-3{
+    margin: 10px 0px 20px 0px;
+
+}
+   
+
+.iconsfooter{
+    display: flexbox;
+    margin: 10px 50px 10px 0px;
+    width: 40px;
+}
+.iconsfooter:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+
+.iconsfooter2{
+    display: flexbox;
+    margin: 10px 0px 10px 0px;
+    width: 40px;
+}
+.iconsfooter2:hover{
+    transform:  scale3d(1.1,1.1,1);
+}
+
+.btnIntegrantes{
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+.btnIntegrantes:hover{
+    color: #fff;
+    background-color: #0060D5;
+    cursor: pointer;
+}
+
+.imgfooter{
+    width: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+
+.margindiv{
+    margin-bottom: -20px;
+}
+
+.logofooter{
+    width: 150px;
+    padding-top: 20px;
+}
+
+.footertext{
+    font-size: 13px;
+    margin: 5px 80px 20px 80px;
+    
+}
+
+.linktitle{
+    color: #000;
+
+}
+.linktitle:hover{
+    color: #0060D5;
+
+}
+
+.card:hover{
+    transform: scale3d(1.05,1.05,1);
+}
+
+.titleinfo{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.containernoticia{
+    margin-left: 100px;
+}
+
+.titlenoticia h1{
+    font-size: 40px;
+    color: #2888ff;
+    font-weight: 400;
+}
+
+.titlenoticia hr{
+    width: 100%;
+    border: 0.5px solid transparent;    
+
+}
+
+.conteudop p{
+    text-align: justify;
+}
+
+.imgnoticiademo{
+    width: 170px;
+}
+
+.noticiademop h5{
+    font-size: 20px;
+
+}
+.noticiademop p{
+    font-size: 12px;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logouk.svg" type="image/x-icon">
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+  <!-- Meu CSS -->
+  <link rel="stylesheet" href="./css/meustyle.css">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <title>UniKids</title>
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="teal white">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo"><img class="valign-wrapper" style="width: 140px; margin-top: 5px;"
+            src="img/UniKids 02.svg" alt=""></a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><img src="img/menu.svg" alt=""></a>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active"><a class="black-text" href="index.html">Início</a></li>
+          <li><a class="black-text" href="sobrenos.html">Sobre nós</a></li>
+          <li><a class="black-text" href="noticia.html">Notícias</a></li>
+          <li><a class="black-text" href="galeria.html">Galeria</a></li>
+          <li><a class="black-text" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul id="mobile-demo" class="sidenav">
+    <li class="active"><a class="black-text" href="index.html">Início</a></li>
+    <li><a class="black-text" href="sobrenos.html">Sobre nós</a></li>
+    <li><a class="black-text" href="noticia.html">Notícias</a></li>
+    <li><a class="black-text" href="galeria.html">Galeria</a></li>
+    <li><a class="black-text" href="#contato">Contato</a></li>
+  </ul>
+
+  <!-- Carrossel -->
+  <div style="margin-left: -10px; margin-right: -10px;" class="row">
+    <!-- Carrossel large -->
+    <div class="col l12 hide-on-med-and-down">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/carrossel1.png"></a>
+        <a class="carousel-item" href="#two!"><img src="img/carrossel2.png"></a>
+      </div>
+    </div>
+    <!-- Carrossel medium -->
+    <div class="col m12 hide-on-small-only hide-on-large-only">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/carrossel1Med.png"></a>
+        <a class="carousel-item" href="#two!"><img src="img/carrossel2Med.png"></a>
+      </div>
+    </div>
+    <!-- Carrossel small -->
+    <div class="col s12 hide-on-med-and-up">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/carrossel1Small.png"></a>
+        <a class="carousel-item" href="#two!"><img src="img/carrossel2Small.png"></a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <hr style="width: 200px; margin-top: 20px; margin-bottom: -30px; border-color: #FF006F;">
+    <h2 class="center titleinfo">Informações</h2>
+    <hr style="margin-top: -10px; width: 200px;">
+  </div>
+
+
+  <!-- Cards de Informação-->
+  <div class="espaco center">
+    <div class="row" style="margin-top: 30px;">
+      <div style="margin-bottom: 10px;" class="col s12 m6 l4">
+        <!-- Card 1 -->
+        <div class="center shadow information">
+          <img style="width: 80px;" src="./img/acessibilidade.svg" alt="">
+          <div class="center">
+            <h3 class="">Assistência</h3>
+            <div>
+              <p>Temos atendimento especializado para crianças com&nbsp;neurodivergencias e profissionais qualificados
+                para&nbsp;ajudar!</p>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Card 1 -->
+      </div>
+      <div class="col s12 m6 l4">
+        <!-- Card 2 -->
+        <div style="margin-bottom: 10px;" class="center shadow information">
+          <img style="width: 80px;" src="./img/pc.svg" alt="">
+          <div class="center">
+            <h3 class="">Tecnologia</h3>
+            <div>
+              <p>Tecnologia de ponta, computadores com as melhores configurações do mercado e tablets para estudo
+                regular!</p>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Card 2 -->
+      </div>
+      <div style="margin-bottom: 10px;" class="col s12 m6 l4">
+        <!-- Card 3 -->
+        <div class="center shadow information">
+          <img style="width: 80px;" src="./img/escola.svg" fill="" alt="">
+          <div class="center">
+            <h3 class="">Infraestrutura</h3>
+            <div>
+              <p>Estrutura segura construída por uma empresa especializada. Paredes reforçadas e salas com Ar
+                Condicionado</p>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Card 3 -->
+      </div>
+    </div>
+  </div>
+  <!-- Fim Cards de Informação-->
+
+
+  <!-- Cards de Noticia-->
+  <div class="noticiademo center">
+    <div class="row container">
+      <div class="col s12">
+        <h2>Notícias Da Instituição</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="espaco center">
+      <div class="row" style="margin-top: 30px;">
+        <div style="margin-bottom: 10px;" class="col s12 m6 l4">
+          <!-- Noticia 1 -->
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <div class="card">
+                <div class="card-image">
+                  <a href="noticia1.html"><img src="./img/encontroProfAlunos.png"></a>
+                </div>
+                <div class="card-content conteudonoticia">
+                  <h3><a class="linktitle" href="noticia1.html">Encontro Alunos e Professores</a></h3>
+                  <p class="textnoticia">A UniKids promove um encontro emocionante entre alunos e professores, visando
+                    fortalecer laços e promover uma interação mais próxima. O evento busca criar um ambiente acolhedor,
+                    onde trocas significativas e apoio mútuo são incentivados. Estamos entusiasmados em cultivar
+                    conexões duradouras na UniKids! </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Noticia 1 -->
+        </div>
+        <div class="col s12 m6 l4">
+          <!-- Noticia 2 -->
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <div class="card">
+                <div class="card-image">
+                  <a href="noticia2.html"><img src="./img/folclore.png"></a>
+                </div>
+                <div class="card-content conteudonoticia">
+                  <h3><a class="linktitle" href="noticia2.html">Dia do Folclore</a></h3>
+                  <p class="textnoticia">UniKids promove evento especial em homenagem ao Dia do Folclore, destacando
+                    apresentações e atividades culturais. Alunos participam com entusiasmo, trazendo à vida lendas
+                    brasileiras. Uma celebração rica em cultura e integração.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Noticia 2 -->
+        </div>
+        <div style="margin-bottom: 10px;" class="col s12 m6 l4">
+          <!-- Noticia 3 -->
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <div class="card">
+                <div class="card-image">
+                  <a href="noticia3.html"><img src="./img/mae.png"></a>
+                </div>
+                <div class="card-content conteudonoticia">
+                  <h3><a class="linktitle" href="noticia3.html">Celebração de dia das Mães</a></h3>
+                  <p class="textnoticia">UniKids prepara evento especial para o Dia das Mães, com surpresas dos alunos e
+                    atividades interativas, destacando o papel fundamental das mães na vida escolar e pessoal das
+                    crianças.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Noticia 3 -->
+        </div>
+      </div>
+    </div>
+    <div class="btnnoticia">
+      <!-- Botão de Noticias-->
+      <a href="noticia.html" class="waves-effect waves-light btn-large"><i class="material-icons left">chat</i>Página de
+        notícias completa</a>
+    </div>
+  </div>
+
+  <!-- Fim Cards de Noticias-->
+
+  <!-- Contato -->
+  <div id="contato" class="bgImg formInp contatotitle">
+    <div class="row container">
+      <h2 class="center white-text">Contato</h2>
+      <form class="col s12">
+        <div class="row">
+          <div class=" col s12 m12 l4">
+            <input id="" type="text" class="formInp" placeholder="Nome">
+          </div>
+
+          <div class=" col s12 m12 l4">
+            <input id="" type="text" class="formInp" placeholder="Telefone">
+          </div>
+
+          <div class=" col s12 m12 l4">
+            <input id="" type="text" class="formInp" placeholder="E-mail">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12">
+            <input id="email" type="email" class="formInp" placeholder="Assunto">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class=" col s12 m12 l12">
+            <textarea id="textarea1" class="materialize-textarea formInp" placeholder="Mensagem"></textarea>
+          </div>
+        </div>
+
+        <div class="row center btnctt">
+          <div class="input-field col s12">
+            <button type="submit" class="btn">Enviar</button>
+          </div>
+        </div>
+
+    </div>
+    </form>
+  </div>
+  </div>
+
+
+
+  <footer>
+    <div class="row center">
+      <div class="col s12 m12 l12 grey darken-4">
+        <img class="logofooter" src="./img/UniKids 02.svg" alt="">
+        <p class="footertext white-text">Agradecemos a todos por fazerem parte da nossa história extraordinária.
+          Somos mais que uma escola; somos uma comunidade dedicada à excelência educativa. Nosso compromisso
+          apaixonado com o desenvolvimento integral de cada aluno é o que nos torna uma instituição única.
+          Agradecemos por confiarem em nós para moldar o futuro brilhante dos nossos jovens. Aqui, na UniKids,
+          a qualidade de ensino é a nossa paixão, e é um privilégio fazer parte do crescimento e sucesso de
+          cada aluno.
+        </p>
+
+        <div>
+          <a href=""><img src="img/instagram.svg" alt="" class="iconsfooter"></a>
+          <a href=""><img src="img/facebook.svg" alt="" class="iconsfooter"></a>
+          <a href=""><img src="img/email.svg" alt="" class="iconsfooter"></a>
+          <a href=""><img src="img/phone.svg" alt="" class="iconsfooter2"></a>
+        </div>
+
+        <div class="grid-3">
+          <a id="btn-integrantes" class="btnIntegrantes center">Toque aqui para ver os Integrantes do trabalho</a>
+
+        </div>
+
+        <div style="color: #fff;" id="integrantes">
+          <p>Paulo Henrique Borges Rosa - 16024949</p>
+          <p>Lucas Gabriel Alves de Souza - 16029475</p>
+          <a style="cursor: pointer; color: rgb(255, 33, 33);" id="btn-integrantes-fechar" class="center">Fechar</a>
+        </div>
+
+      </div>
+
+      <div class="col s12 m12 l12 black white-text grid-2">
+        <p style="font-size: 10px;">Direitos reservados a &copy;UniKids</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!--Hide Botão Integrantes-->
+  <script>
+    $("#integrantes").hide()
+
+    $('#btn-integrantes').click(
+      function () {
+        $('#integrantes').fadeIn();
+        $('#integrantes').show();
+      }
+    );
+
+
+    $('#btn-integrantes-fechar').click(
+      function () {
+        $('#integrantes').fadeOut();
+        $('#integrantes').hide();
+      }
+    )
+
+  </script>
+
+  <script>
+    var instance = M.Carousel.init({
+      fullWidth: true,
+      indicators: true
+    });
+
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true,
+    });
+  </script>
+
+
+  <!--NavBar Responsive-->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+
+      var elems = document.querySelectorAll('.sidenav-trigger');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+</body>
+
+</html>
